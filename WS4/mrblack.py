@@ -4,7 +4,7 @@ upper = 100
 
 def get_number(lower, upper):
     valid = False
-    num=input("Enter a number ({}-{})".format(str(lower), str(upper)))
+    num=input("Enter an integer ({}-{})".format(str(lower), str(upper)))
     while valid == False:
         if num.isdecimal():
             if int(num) > lower and int(num) < upper:
